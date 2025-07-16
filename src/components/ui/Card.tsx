@@ -1,6 +1,6 @@
 import { HTMLAttributes, forwardRef } from 'react'
 import { cn } from '@/lib/utils'
-
+/* eslint-disable @typescript-eslint/no-explicit-any */
 const Card = forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
   ({ className, ...props }, ref) => (
     <div

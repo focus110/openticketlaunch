@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { useParams } from 'next/navigation'
+// import { useParams } from 'next/navigation'
 import { Button } from '@/components/ui/Button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/Card'
 import { formatCurrency, formatDateTime } from '@/lib/utils'
@@ -19,7 +19,7 @@ This comprehensive event will cover:
 • Hands-on workshops with cutting-edge technologies
 • Panel discussions with industry experts
 
-Whether you're a developer, entrepreneur, or tech enthusiast, this conference offers valuable insights and networking opportunities that will advance your career and expand your knowledge.`,
+Whether you are a developer, entrepreneur, or tech enthusiast, this conference offers valuable insights and networking opportunities that will advance your career and expand your knowledge.`,
   start_date: '2024-03-15T09:00:00',
   end_date: '2024-03-15T17:00:00',
   location: 'Lagos Convention Center, Victoria Island, Lagos',
@@ -59,7 +59,7 @@ Whether you're a developer, entrepreneur, or tech enthusiast, this conference of
 }
 
 export default function EventDetailPage() {
-  const params = useParams()
+  // const params = useParams()
   const [selectedTickets, setSelectedTickets] = useState<Record<string, number>>({})
   const [loading, setLoading] = useState(false)
 
