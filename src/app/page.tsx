@@ -19,7 +19,7 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/signup">
                 <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 text-lg px-8 py-4">
-                  Create Your First Event - It's Free to Start!
+                  Create Your First Event - It&apos;s Free to Start!
                 </Button>
               </Link>
               <Link href="/events">
@@ -191,7 +191,7 @@ export default function HomePage() {
               Everything You Need to Manage Events
             </h2>
             <p className="text-xl text-gray-600">
-              From creation to check-in, we've got you covered
+              From creation to check-in, we&apos;ve got you covered
             </p>
           </div>
 

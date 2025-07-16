@@ -1,6 +1,7 @@
 import { createServerClient } from '@supabase/ssr'
 import { cookies } from 'next/headers'
 import { NextRequest, NextResponse } from 'next/server'
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 export async function createSupabaseServerClient() {
   const cookieStore = await cookies()
