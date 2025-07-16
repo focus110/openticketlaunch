@@ -203,7 +203,7 @@ export function CreateEventWizard() {
           <CardHeader>
             <CardTitle>Event Details</CardTitle>
             <CardDescription>
-              Tell us about your event and when it's happening
+              Tell us about your event and when it&apos;s happening
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
